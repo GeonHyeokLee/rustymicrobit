@@ -14,18 +14,18 @@
       "coreConfigs": [
         {
           "coreIndex": 0,
-          "rttEnabled": true,
-          "rttChannelFormats": [
-            {
-              "channelNumber": 0,
-              "dataFormat": "String",
-              "showTimestamps": true
-            },
-            {
-              "channelNumber": 1,
-              "dataFormat": "BinaryLE"
-            }
-          ],
+          // "rttEnabled": true,
+          // "rttChannelFormats": [
+          //   {
+          //     "channelNumber": 0,
+          //     "dataFormat": "String",
+          //     "showTimestamps": true
+          //   },
+          //   {
+          //     "channelNumber": 1,
+          //     "dataFormat": "BinaryLE"
+          //   }
+          // ],
           "programBinary": "./target/thumbv7em-none-eabihf/debug/${workspaceFolderBasename}"
         }
       ]
